@@ -150,3 +150,7 @@ h4{
 .contact-card p{
     color: white;
 }
+.contact-card a{
+    text-decoration: none;
+    color: white;
+}
