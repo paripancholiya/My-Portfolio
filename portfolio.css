@@ -1,0 +1,152 @@
+body{
+    background-color: rgb(228, 179, 228);
+    margin: 0;
+}
+
+header{
+    background-color: rgb(134, 90, 134);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    font-family: Georgia,'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+nav a{
+    text-align: right;
+    color: azure;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 30px;
+    padding: 8px 12px;
+    transition: 0.1s;
+}
+
+nav a:hover{
+    color: white;
+    background-color: rgb(169, 100, 161);
+    border-radius: 20px;
+}
+
+#portfolio{
+    padding: 30px;
+}
+
+h2{
+    color: white;
+    font-family: fantasy;
+    margin-left: 40px;
+    font-size: 60px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+img{
+    width: 350px;
+    float: right;
+    margin-right: 100px;
+    margin-top: -80px;
+    border-radius: 20px;
+}
+
+#portfolio h3{
+    color: white;
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+h4{
+    color: white;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+#portfolio p{
+    margin-left: 50px;
+    color: white;
+    width: 500px;
+}
+
+#projects,
+#skills{
+    padding: 30px;
+}
+
+.carousel{
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    padding: 20px 30px;
+}
+
+.skill-carousel{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 10px 20px;
+}
+
+.carousel::-webkit-scrollbar,
+.skill-carousel::-webkit-scrollbar{
+    display: none;
+}
+
+.card{
+    min-width: 300px;
+    min-height: 40px;
+    background-color: rgb(189, 130, 204);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.skill-card{
+    min-width: 150px;
+    min-height: 20px;
+    background-color: rgb(190, 117, 208);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+}
+
+.skill-carousel h3{
+    color: white;
+    text-align: center;
+}
+
+.card h3{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.card p{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.contact-card{
+    background-color: rgb(189, 130, 204);
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 50px;
+    width: fit-content;
+}
+
+.contact-card p{
+    color: white;
+}
