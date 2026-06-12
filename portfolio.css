@@ -50,7 +50,8 @@ h2{
 }
 
 img{
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     float: right;
     margin-right: 100px;
     margin-top: -80px;
@@ -72,7 +73,7 @@ h4{
 #portfolio p{
     margin-left: 50px;
     color: white;
-    width: 500px;
+    max-width: 500px;
 }
 
 #projects,
@@ -154,4 +155,45 @@ h4{
 .contact-card a{
     text-decoration: none;
     color: white;
+}
+@media (max-width: 768px){
+
+    header{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav{
+        margin-top: 10px;
+    }
+
+    nav a{
+        display: inline-block;
+        margin: 5px;
+    }
+
+    img{
+        width: 220px;
+        float: none;
+        display: block;
+        margin: 20px auto;
+    }
+
+    #portfolio p{
+        width: auto;
+        margin-right: 20px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    .card{
+        min-width: 250px;
+    }
+
+    .contact-card{
+        width: auto;
+        margin: 20px;
+    }
 }
